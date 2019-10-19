@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grid_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDark"
+    android:padding="7dp"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    android:rowCount="1"
+    android:columnCount="3">
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDark"
+        android:drawableTint="@color/white"
+        android:drawableTop="@drawable/ic_map_white_24dp"
+        android:text="@string/map"
+        android:fontFamily="@font/productsansbold"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textAlignment="center">
+    </Button>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorDark"
+        android:drawableTint="@color/white"
+        android:drawableTop="@drawable/ic_home_white_24dp"
+        android:text="@string/home"
+        android:fontFamily="@font/productsansbold"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textAlignment="center">
+    </Button>
+
+    <Button
+        android:id="@+id/alertButton"
+        android:layout_column="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDark"
+        android:drawableTint="@color/white"
+        android:drawableTop="@drawable/ic_announcement_white_24dp"
+        android:text="@string/alert"
+        android:fontFamily="@font/productsansbold"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textAlignment="center">
+    </Button>
+
+
+</GridLayout>

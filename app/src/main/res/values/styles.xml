@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PurpleText">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PurpleMap">
+        <item name="android:background">@drawable/ic_map_purple_24dp</item>
+    </style>
+    <style name="PurpleHome">
+        <item name="android:background">@drawable/ic_home_purple_24dp</item>
+    </style>
+    <style name="PurpleAlert">
+        <item name="android:background">@drawable/ic_announcement_purple_24dp</item>
+    </style>
+
+</resources>
